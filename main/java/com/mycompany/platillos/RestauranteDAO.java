@@ -48,6 +48,7 @@ public class RestauranteDAO {
                 System.out.println("No se pudo eliminar el platillo ");
             }
         }catch(SQLException e){
+            System.out.println();
             System.out.println(e);
         }
     }
